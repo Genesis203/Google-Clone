@@ -4,18 +4,24 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
 html{
     font-size: 62.5%;
 }
 
 header{
     width: 100%;
-    height: 7vh;
+    height: 60px;
 }
 
 header nav{
     display: flex;
     justify-content: flex-end;
+    margin-top: 10px;
 }
 
 header nav .nav-right-section{
@@ -24,10 +30,24 @@ header nav .nav-right-section{
     display: flex;
     list-style: none;
     justify-content: center;
+    align-items: center;
 }
 
 nav .nav-right-section a{
     margin-right: 10px;
     color: #000000;
-    text-decoration: none;
+}
+
+nav .nav-right-section .menu_icon{
+    background-image: url('https://static.thenounproject.com/png/756729-200.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+}
+
+nav .nav-right-section img{
+    border-radius: 50%;
+    margin-left: 10px;
 }
